@@ -1,0 +1,2 @@
+This is a file we will copy to another copy.txt
+My name is Badri.

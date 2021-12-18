@@ -1,0 +1,1 @@
+The Vowels in file File.txt are: i, i, e, e, i, e, I, a, i, i, o, A, a, e, i, a, i, a, a, 
