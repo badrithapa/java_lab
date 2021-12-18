@@ -83,7 +83,7 @@ public class MRS extends JFrame implements ActionListener {
                 System.out.println("Connecting to DataBase....");
                 con = DriverManager.getConnection(url, uname, pw);
 
-                //Execute a Query with Statement object
+                //Execute a Query with PreparedStatement object
                 System.out.println("Creating Statement...");
 
                 String sql = "insert movie(id, Title, Genre, Language, Length) values (?, ?, ?, ?, ?)";
