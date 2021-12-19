@@ -1,0 +1,3 @@
+config command for maven jsp in intelliJ
+
+	clean install war:war org.codehaus.mojo:wagon-maven-plugin:upload-single -Dwagon.fromFile={war-path} -Dwagon.url=file://{tomcat-webapps-path}
