@@ -17,6 +17,7 @@ public class SI extends JFrame implements ActionListener {
         t2 = new JTextField(10);
         t3 = new JTextField(10);
         t4 = new JTextField(10);
+        t4.setEditable(false);  //cannot edit or input in output text-field.
 
         b = new JButton("Calculate");
         b.addActionListener(this);
