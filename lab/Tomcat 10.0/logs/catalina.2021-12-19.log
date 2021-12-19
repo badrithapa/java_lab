@@ -524,3 +524,139 @@
 19-Dec-2021 14:24:49.641 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\7thSem\Ajava\Tomcat 10.0\webapps\myproject.war]
 19-Dec-2021 14:24:50.372 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 19-Dec-2021 14:24:50.377 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\7thSem\Ajava\Tomcat 10.0\webapps\myproject.war] has finished in [736] ms
+19-Dec-2021 14:51:30.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.14
+19-Dec-2021 14:51:30.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2021 22:01:36 UTC
+19-Dec-2021 14:51:30.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.14.0
+19-Dec-2021 14:51:30.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Dec-2021 14:51:30.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Dec-2021 14:51:30.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Dec-2021 14:51:30.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17.0.1
+19-Dec-2021 14:51:30.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.1+12-LTS-39
+19-Dec-2021 14:51:30.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Dec-2021 14:51:30.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0
+19-Dec-2021 14:51:30.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0
+19-Dec-2021 14:51:30.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Dec-2021 14:51:30.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Dec-2021 14:51:30.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Dec-2021 14:51:30.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Dec-2021 14:51:30.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Dec-2021 14:51:30.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\conf\logging.properties
+19-Dec-2021 14:51:30.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Dec-2021 14:51:30.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Dec-2021 14:51:30.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Dec-2021 14:51:30.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=localhost:8000,server=y,suspend=n
+19-Dec-2021 14:51:30.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Dec-2021 14:51:30.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0
+19-Dec-2021 14:51:30.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0
+19-Dec-2021 14:51:30.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\temp
+19-Dec-2021 14:51:30.268 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lenovo\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\lenovo\AppData\Local\Programs\Python\Python39\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\lenovo\.dotnet\tools;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2.2\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\bin;;C:\Program Files\Java\jdk-17.0.1\bin;C:\tools\dart-sdk\bin;C:\Users\lenovo\AppData\Roaming\Pub\Cache\bin;;.]
+19-Dec-2021 14:51:30.940 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Dec-2021 14:51:30.994 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1262] milliseconds
+19-Dec-2021 14:51:31.134 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Dec-2021 14:51:31.135 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.14]
+19-Dec-2021 14:51:31.178 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\JSP.war]
+19-Dec-2021 14:51:32.418 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\JSP.war] has finished in [1,238] ms
+19-Dec-2021 14:51:32.419 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\docs]
+19-Dec-2021 14:51:32.485 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\docs] has finished in [65] ms
+19-Dec-2021 14:51:32.485 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\examples]
+19-Dec-2021 14:51:33.289 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\examples] has finished in [803] ms
+19-Dec-2021 14:51:33.290 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\host-manager]
+19-Dec-2021 14:51:33.412 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\host-manager] has finished in [122] ms
+19-Dec-2021 14:51:33.412 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\manager]
+19-Dec-2021 14:51:33.519 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\manager] has finished in [106] ms
+19-Dec-2021 14:51:33.519 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\myweb]
+19-Dec-2021 14:51:33.572 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\myweb] has finished in [52] ms
+19-Dec-2021 14:51:33.572 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\ROOT]
+19-Dec-2021 14:51:33.619 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\ROOT] has finished in [46] ms
+19-Dec-2021 14:51:33.629 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Dec-2021 14:51:33.840 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2844] milliseconds
+19-Dec-2021 15:02:25.635 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/JSP]
+19-Dec-2021 15:02:25.703 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\JSP.war]
+19-Dec-2021 15:02:25.894 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\JSP.war] has finished in [191] ms
+19-Dec-2021 15:05:46.502 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/JSP]
+19-Dec-2021 15:05:46.528 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\JSP.war]
+19-Dec-2021 15:05:46.621 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\JSP.war] has finished in [92] ms
+19-Dec-2021 15:05:56.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.14
+19-Dec-2021 15:05:56.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2021 22:01:36 UTC
+19-Dec-2021 15:05:56.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.14.0
+19-Dec-2021 15:05:56.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Dec-2021 15:05:56.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Dec-2021 15:05:56.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Dec-2021 15:05:56.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17.0.1
+19-Dec-2021 15:05:56.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.1+12-LTS-39
+19-Dec-2021 15:05:56.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Dec-2021 15:05:56.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0
+19-Dec-2021 15:05:56.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0
+19-Dec-2021 15:05:56.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Dec-2021 15:05:56.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Dec-2021 15:05:56.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Dec-2021 15:05:56.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Dec-2021 15:05:56.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Dec-2021 15:05:56.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\conf\logging.properties
+19-Dec-2021 15:05:56.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Dec-2021 15:05:56.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Dec-2021 15:05:56.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Dec-2021 15:05:56.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=localhost:8000,server=y,suspend=n
+19-Dec-2021 15:05:56.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Dec-2021 15:05:56.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0
+19-Dec-2021 15:05:56.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0
+19-Dec-2021 15:05:56.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\temp
+19-Dec-2021 15:05:56.650 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lenovo\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\lenovo\AppData\Local\Programs\Python\Python39\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\lenovo\.dotnet\tools;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2.2\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\bin;;C:\Program Files\Java\jdk-17.0.1\bin;C:\tools\dart-sdk\bin;C:\Users\lenovo\AppData\Roaming\Pub\Cache\bin;;.]
+19-Dec-2021 15:05:57.319 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Dec-2021 15:05:57.381 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1194] milliseconds
+19-Dec-2021 15:05:57.500 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Dec-2021 15:05:57.501 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.14]
+19-Dec-2021 15:05:57.540 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\JSP.war]
+19-Dec-2021 15:05:58.221 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [105] milliseconds.
+19-Dec-2021 15:05:58.263 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\JSP.war] has finished in [722] ms
+19-Dec-2021 15:05:58.265 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\docs]
+19-Dec-2021 15:05:58.320 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\docs] has finished in [56] ms
+19-Dec-2021 15:05:58.321 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\examples]
+19-Dec-2021 15:05:59.107 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\examples] has finished in [786] ms
+19-Dec-2021 15:05:59.108 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\host-manager]
+19-Dec-2021 15:05:59.238 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\host-manager] has finished in [129] ms
+19-Dec-2021 15:05:59.238 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\manager]
+19-Dec-2021 15:05:59.332 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\manager] has finished in [93] ms
+19-Dec-2021 15:05:59.332 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\myweb]
+19-Dec-2021 15:05:59.380 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\myweb] has finished in [47] ms
+19-Dec-2021 15:05:59.381 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\ROOT]
+19-Dec-2021 15:05:59.429 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\ROOT] has finished in [48] ms
+19-Dec-2021 15:05:59.439 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Dec-2021 15:05:59.613 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2232] milliseconds
+19-Dec-2021 15:09:30.275 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/JSP]
+19-Dec-2021 15:09:30.357 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\JSP.war]
+19-Dec-2021 15:09:30.492 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\JSP.war] has finished in [134] ms
+19-Dec-2021 15:12:31.083 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/JSP]
+19-Dec-2021 15:12:31.674 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\JSP.war]
+19-Dec-2021 15:12:31.754 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\JSP.war] has finished in [80] ms
+19-Dec-2021 15:13:21.937 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/JSP]
+19-Dec-2021 15:13:21.966 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\JSP.war]
+19-Dec-2021 15:13:22.078 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\JSP.war] has finished in [112] ms
+19-Dec-2021 15:17:53.220 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+19-Dec-2021 15:17:53.244 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/examples]
+19-Dec-2021 15:17:53.257 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/myweb]
+19-Dec-2021 15:17:53.300 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/host-manager]
+19-Dec-2021 15:17:53.317 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+19-Dec-2021 15:17:53.345 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/JSP]
+19-Dec-2021 15:17:53.359 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/docs]
+19-Dec-2021 15:17:53.366 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\JSP.war]
+19-Dec-2021 15:17:53.370 WARNING [Catalina-utility-2] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [cachingAllowed] to [false]
+19-Dec-2021 15:17:53.457 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\JSP.war] has finished in [90] ms
+19-Dec-2021 15:17:53.457 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\docs]
+19-Dec-2021 15:17:53.463 WARNING [Catalina-utility-2] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [cachingAllowed] to [false]
+19-Dec-2021 15:17:53.530 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\docs] has finished in [73] ms
+19-Dec-2021 15:17:53.530 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\examples]
+19-Dec-2021 15:17:53.537 WARNING [Catalina-utility-2] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [cachingAllowed] to [false]
+19-Dec-2021 15:17:54.065 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\examples] has finished in [534] ms
+19-Dec-2021 15:17:54.065 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\host-manager]
+19-Dec-2021 15:17:54.070 WARNING [Catalina-utility-2] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [cachingAllowed] to [false]
+19-Dec-2021 15:17:54.130 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\host-manager] has finished in [64] ms
+19-Dec-2021 15:17:54.130 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\manager]
+19-Dec-2021 15:17:54.135 WARNING [Catalina-utility-2] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [cachingAllowed] to [false]
+19-Dec-2021 15:17:54.206 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\manager] has finished in [76] ms
+19-Dec-2021 15:17:54.207 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\myweb]
+19-Dec-2021 15:17:54.212 WARNING [Catalina-utility-2] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [cachingAllowed] to [false]
+19-Dec-2021 15:17:54.253 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\myweb] has finished in [46] ms
+19-Dec-2021 15:17:54.254 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\ROOT]
+19-Dec-2021 15:17:54.258 WARNING [Catalina-utility-2] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [cachingAllowed] to [false]
+19-Dec-2021 15:17:54.308 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\7thSem\Ajava\java_lab\lab\Tomcat 10.0\webapps\ROOT] has finished in [53] ms
