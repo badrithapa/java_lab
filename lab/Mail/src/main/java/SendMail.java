@@ -27,7 +27,7 @@ public class SendMail extends Authenticator {
         prop.put("mail.smtp.auth","true");
         prop.put("mail.smtp.starttls.enable","true"); //this starts TLS
 
-        prop.put("mail.smtp.host","smtp.gamil.com");
+        prop.put("mail.smtp.host","smtp.gmail.com");
         prop.put("mail.smtp.port","587");
         prop.put("mail.smtp.user",from);
         prop.put("mail.smtp.password",pass);
